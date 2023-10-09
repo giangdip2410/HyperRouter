@@ -25,7 +25,7 @@ By routing input tokens to only a few split experts, Sparse Mixture-of-Experts h
 
 ## Usage
 
-##### Pretraining Transformer-XL on enwik8: 
+##### Pretraining Transformer-XL on Enwik8 and Wikitext103: 
 
 ``` # Enwik8 dataset: 
 bash script/table1/hyper_router_enwik8.sh
