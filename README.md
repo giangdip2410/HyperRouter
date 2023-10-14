@@ -26,8 +26,9 @@ By routing input tokens to only a few split experts, Sparse Mixture-of-Experts h
 ## Usage
 
 ##### Prepare Enwik8 and Wikitext103 Datasets: 
+``` # Download dataset: 
 bash script/table1/transformer_xl/get_data.sh
-
+```
 
 
 ##### Pretraining Transformer-XL on Enwik8 and Wikitext103: 
