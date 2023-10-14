@@ -25,23 +25,28 @@ By routing input tokens to only a few split experts, Sparse Mixture-of-Experts h
 
 ## Usage
 
+##### Prepare Enwik8 and Wikitext103 Datasets: 
+bash script/table1/transformer_xl/get_data.sh
+
+
+
 ##### Pretraining Transformer-XL on Enwik8 and Wikitext103: 
 
 ``` # Enwik8 dataset: 
-bash script/table1/hyper_router_enwik8.sh
-bash script/table1/smoe_dropout_enwik8.sh
-bash script/table1/smoe_enwik8.sh
-bash script/table1/directly_dense_dropout_enwik8.sh
-bash script/table1/directly_dense_enwik8.sh
+bash script/table1/transformer_xl/hyper_router_enwik8.sh
+bash script/table1/transformer_xl/smoe_dropout_enwik8.sh
+bash script/table1/transformer_xl/smoe_enwik8.sh
+bash script/table1/transformer_xl/directly_dense_dropout_enwik8.sh
+bash script/table1/transformer_xl/directly_dense_enwik8.sh
 ```
 
 
 ``` # Wikitext103 dataset: 
-bash script/table1/hyper_router_wiki103.sh
-bash script/table1/smoe_dropout_wiki103.sh
-bash script/table1/smoe_wiki103.sh
-bash script/table1/directly_dense_dropout_wiki103.sh
-bash script/table1/directly_dense_wiki103.sh
+bash script/table1/transformer_xl/hyper_router_wiki103.sh
+bash script/table1/transformer_xl/smoe_dropout_wiki103.sh
+bash script/table1/transformer_xl/smoe_wiki103.sh
+bash script/table1/transformer_xl/directly_dense_dropout_wiki103.sh
+bash script/table1/transformer_xl/directly_dense_wiki103.sh
 ```
 
 ##### Pretraining Transformer-XL on Medium and Large scale: 
