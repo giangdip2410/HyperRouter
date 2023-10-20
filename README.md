@@ -2,13 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Code for this paper [HyperRouter: Towards Efficient Training and Inference of Sparse Mixture of Experts via HyperNetwork](https://openreview.net/forum?id=fL8AKDvELp)
+This repo contains the code for this paper [HyperRouter: Towards Efficient Training and Inference of Sparse Mixture of Experts via HyperNetwork](https://openreview.net/forum?id=fL8AKDvELp)
 
-Truong Giang Do, Le Huy Khiem, TrungTin Nguyen, Quang Pham, Binh T. Nguyen, Thanh-Nam Doan, Chenghao Liu Savitha Ramasamy, Xiaoli Li, Steven HOI
-
-Our implementation is based on [fastmoe repo](https://github.com/laekov/fastmoe), [huggingface repo](https://github.com/huggingface/transformers) and [Smoe-Dropout repo](https://github.com/VITA-Group/Random-MoE-as-Dropout).
-
-
+Truong Giang Do, Le Huy Khiem, Quang Pham, TrungTin Nguyen, Thanh-Nam Doan, Binh T. Nguyen, Chenghao Liu, Savitha Ramasamy, Xiaoli Li, Steven HOI
 
 ## Overview
 
@@ -71,7 +67,9 @@ bash script/table2/sst2/dense_model.sh [pretrained-checkpoint]
 bash script/table2/sst2/smoe_dropout.sh [pretrained-checkpoint]
 ```
 
+## Acknowledgement
 
+Our implementation is based on [fastmoe repo](https://github.com/laekov/fastmoe), [huggingface repo](https://github.com/huggingface/transformers) and [Smoe-Dropout repo](https://github.com/VITA-Group/Random-MoE-as-Dropout).
 
 ## Citation
 
