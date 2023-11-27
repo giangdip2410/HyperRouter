@@ -9,6 +9,7 @@ python -u train.py \
     --n_head 8 \
     --d_head 64 \
     --d_inner 512 \
+    --dropout 0.0 \
     --dropatt 0.0 \
     --optim adam \
     --lr 0.00025 \
@@ -22,4 +23,10 @@ python -u train.py \
     --moe --moe-num-expert 16 --moe-top-k 2 \
     --gate_name CustomNaiveGate \
     --moe_index 0,1,2,3 \
+    --freeze_gate \
+    --dynamic_moe \
+    --dynamic_moe_mode linear_increase \
+    --dynamic_overall_steps 400000 \
+    --moe-top-k-min 8 \
+    --moe-top-k-max 16 \
     --work_dir SMoE-Medium
