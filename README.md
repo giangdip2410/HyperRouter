@@ -32,7 +32,6 @@ bash script/table1/transformer_xl/get_data.sh
 ``` # Enwik8 dataset: 
 bash script/table1/transformer_xl/hyper_router_enwik8.sh
 bash script/table1/transformer_xl/smoe_dropout_enwik8.sh
-bash script/table1/transformer_xl/smoe_enwik8.sh
 bash script/table1/transformer_xl/directly_dense_dropout_enwik8.sh
 bash script/table1/transformer_xl/directly_dense_enwik8.sh
 ```
@@ -41,7 +40,6 @@ bash script/table1/transformer_xl/directly_dense_enwik8.sh
 ``` # Wikitext103 dataset: 
 bash script/table1/transformer_xl/hyper_router_wiki103.sh
 bash script/table1/transformer_xl/smoe_dropout_wiki103.sh
-bash script/table1/transformer_xl/smoe_wiki103.sh
 bash script/table1/transformer_xl/directly_dense_dropout_wiki103.sh
 bash script/table1/transformer_xl/directly_dense_wiki103.sh
 ```
@@ -51,13 +49,11 @@ bash script/table1/transformer_xl/directly_dense_wiki103.sh
 ``` # Medium Scale - Enwik8 dataset
 bash script/LargeScale/hyper_router_medium_enwik8.sh
 bash script/LargeScale/smoe_dropout_medium_enwik8.sh
-bash script/LargeScale/smoe_medium_enwik8.sh
 ```
 
 ``` # Large Scale - Enwik8 dataset
 bash script/LargeScale/hyper_router_large_enwik8.sh
 bash script/LargeScale/smoe_dropout_large_enwik8.sh
-bash script/LargeScale/smoe_medium_large.sh
 ```
 
 ##### Fine-tuning on SST-2:
